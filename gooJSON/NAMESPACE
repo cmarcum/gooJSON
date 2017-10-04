@@ -1,0 +1,4 @@
+#Do some importations
+import(utils)
+#Show the world the contents of your search path
+exportPattern("^[^\\.]")

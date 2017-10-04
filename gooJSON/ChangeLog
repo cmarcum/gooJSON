@@ -1,0 +1,29 @@
+2011-08-28 Christopher Steven Marcum <cmarcum@uci.edu>
+
+#This file complies with 2011 GNU Documentation Standards.
+#For more information, see: 
+#http://www.gnu.org/prep/standards/standards.html#Change-Logs
+
+ChangeLog Version Notes For
+Package: gooJSON
+Type: Package
+Title: Google JSON Data Interpreter for R
+
+2011-01-29 
+	v.1.0.0
+		* Original release.
+
+2012-04-06
+	v.1.0.01
+		* ChangeLog (ChangeLog): added this file.
+		* NAMESPACE (NAMESPACE): added a namespace file to be compatible with new R rules.
+		* zzz (zzz.R): added a package header file.
+		* goomap (goomap.R, goomap.Rd): updated behavior of outgoing URL call thanks to jwbowers@illinois.edu. The key is now optional.
+		* gooadd (gooadd.R, gooadd.Rd): corrected ellipsis useage per Uwe Ligges suggestion.
+
+2013-07-31
+	v.1.5.0
+		*gooJSON: major revision after Google deprecated the maps api and added the new geocode api.
+		*goomap (goomap.R, goomap.Rd): updated goomap constructors to call the new google geocode with improved syntax for adding options. Added non-general lat/lon parameters.
+		*gooll (gooll.R, gooll.Rd): new function. Simple wrapper to format lat/lon parameters to geocode api syntax.
+

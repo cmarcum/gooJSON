@@ -1,0 +1,82 @@
+{
+  "name": "3151 Social Science Plaza, Irvine, CA, 92697",
+  "Status": {
+    "code": 200,
+    "request": "geocode"
+  },
+  "Placemark": [ {
+    "id": "p1",
+    "address": "Social Science Plaza B, Irvine, CA 92617, USA",
+    "AddressDetails": {
+   "Accuracy" : 9,
+   "Country" : {
+      "AdministrativeArea" : {
+         "AdministrativeAreaName" : "CA",
+         "SubAdministrativeArea" : {
+            "Locality" : {
+               "AddressLine" : [ "Social Science Plaza B" ],
+               "LocalityName" : "Irvine",
+               "PostalCode" : {
+                  "PostalCodeNumber" : "92617"
+               },
+               "Thoroughfare" : {
+                  "ThoroughfareName" : "Social Science Plaza B"
+               }
+            },
+            "SubAdministrativeAreaName" : "Orange"
+         }
+      },
+      "CountryName" : "USA",
+      "CountryNameCode" : "US"
+   }
+},
+    "ExtendedData": {
+      "LatLonBox": {
+        "north": 33.6501002,
+        "south": 33.6438049,
+        "east": -117.8359015,
+        "west": -117.8421967
+      }
+    },
+    "Point": {
+      "coordinates": [ -117.8389730, 33.6468862, 0 ]
+    }
+  }, {
+    "id": "p2",
+    "address": "Social Science Plaza A, Irvine, CA 92617, USA",
+    "AddressDetails": {
+   "Accuracy" : 9,
+   "Country" : {
+      "AdministrativeArea" : {
+         "AdministrativeAreaName" : "CA",
+         "SubAdministrativeArea" : {
+            "Locality" : {
+               "AddressLine" : [ "Social Science Plaza A" ],
+               "LocalityName" : "Irvine",
+               "PostalCode" : {
+                  "PostalCodeNumber" : "92617"
+               },
+               "Thoroughfare" : {
+                  "ThoroughfareName" : "Social Science Plaza A"
+               }
+            },
+            "SubAdministrativeAreaName" : "Orange"
+         }
+      },
+      "CountryName" : "USA",
+      "CountryNameCode" : "US"
+   }
+},
+    "ExtendedData": {
+      "LatLonBox": {
+        "north": 33.6500946,
+        "south": 33.6437994,
+        "east": -117.8363967,
+        "west": -117.8426919
+      }
+    },
+    "Point": {
+      "coordinates": [ -117.8395225, 33.6468330, 0 ]
+    }
+  } ]
+}
